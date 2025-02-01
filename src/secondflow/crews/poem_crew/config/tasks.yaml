@@ -1,0 +1,8 @@
+write_blog:
+  description: >
+    Write a blog about how CrewAI is awesome.
+    Ensure the blog is engaging and adheres to the specified word count of {word_count}.
+  expected_output: >
+    A beautifully crafted blog post about CrewAI, with exactly {word_count} sentences.
+    Use Keyword like Crewai in Heading and Sub-Heading to make it SEO Friendly.
+  agent: blog_writer
